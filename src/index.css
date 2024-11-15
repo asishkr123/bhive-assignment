@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.feature-card-container > .feature-card:nth-child(-n + 4) {
+  /* Top row */
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.feature-card-container > div:not(:nth-child(4n)) {
+  border-right: 1px solid #e5e7eb;
+}
