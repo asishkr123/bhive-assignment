@@ -1,17 +1,13 @@
 import { Workspace as WorkspaceType } from "../types";
 import DirectionSVG from "../assets/direction.svg?react";
 import DayPass from "./DayPass";
-import BulkPassMobile from "./BulkPassMobile";
-import DayPassMobile from "./DayPassMobile";
 import BulkPass from "./BulkPass";
-import { useMobileView } from "../hooks/useMobileView";
 
 interface Workspace {
   workspace: WorkspaceType;
 }
 
 const Workspace: React.FC<Workspace> = ({ workspace }) => {
-  const isMobile = useMobileView();
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden">
       <div className="p-4 flex justify-between items-center">

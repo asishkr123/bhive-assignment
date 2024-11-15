@@ -1,6 +1,6 @@
-import { Space } from "../types";
+import { Workspace } from "../types";
 
-const WorspaceData: Space[] = [
+const WorspaceData: Workspace[] = [
   {
     id: "39ab7642-8de3-4e95-aa5d-34089bc67b90",
     name: "Platinum, Indiranagar",
