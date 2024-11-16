@@ -11,7 +11,7 @@ const Workspace: React.FC<Workspace> = ({ workspace }) => {
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden">
       <div className="p-4 flex justify-between items-center">
-        <h1 className="font-bold text-[#263238] max-w-[50%]">
+        <h1 className="font-bold sm:text-lg md:text-xl text-[#263238] max-w-[50%] md:max-w-[70%]">
           {workspace.name}
         </h1>
         <a
