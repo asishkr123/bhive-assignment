@@ -1,7 +1,7 @@
 // src/App.tsx
 
 import Header from "./components/Header";
-import Hero from "./components/Banner";
+import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import { useMobileView } from "./hooks/useMobileView";
 import BannerMobile from "./components/BannerMobile";
@@ -30,7 +30,7 @@ const App = () => {
   return (
     <div className="bg-gray-50">
       <Header />
-      {isMobile ? <BannerMobile /> : <Hero />}
+      {isMobile ? <BannerMobile /> : <Banner />}
       <FeaturesSection />
       {isLoading ? (
         <WorkspaceSkeleton />

@@ -4,7 +4,7 @@ export const Banner: React.FC = (): JSX.Element => {
   return (
     <div className="relative flex items-center h-96 bg-gray-100">
       <img
-        src="/images/landing.png"
+        src="images/landing.png"
         alt="Host meeting illustration"
         className="absolute inset-0 w-full h-full object-cover"
       />

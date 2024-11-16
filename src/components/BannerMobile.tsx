@@ -3,7 +3,7 @@ const BannerMobile: React.FC = (): JSX.Element => {
   return (
     <div className="flex flex-col items-center text-center bg-white px-4 py-8">
       <img
-        src="/images/mobilelanding.png"
+        src="images/mobilelanding.png"
         alt="Host meeting illustration"
         className="w-3/4 h-auto mb-4"
       />

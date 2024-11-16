@@ -10,7 +10,7 @@ export const Footer: React.FC = (): JSX.Element => {
         </h2>
         <div className="flex flex-col justify-center mb-4 p-4 bg-white shadow-md rounded-lg">
           <img
-            src="/images/Icons/appstore.svg"
+            src="images/Icons/appstore.svg"
             alt="App Store"
             className="mx-2"
           />

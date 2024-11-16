@@ -12,7 +12,7 @@ export const Footer: React.FC = (): JSX.Element => {
         <div className="bg-white rounded-[18px] h-60 absolute w-[calc(100%_-_8rem)] lg:w-[calc(100%_-_8rem)] md:w-[calc(100%_-_3rem)] bottom-4"></div>
         <div className="flex justify-center mb-8 md:mb-0 absolute  bottom-4">
           <img
-            src="/images/Icons/appstore.svg"
+            src="images/Icons/appstore.svg"
             alt="BHIVE Workspace app screen 1"
             className="w-1/2 md:w-auto"
           />
