@@ -12,7 +12,7 @@ export const Banner: React.FC = (): JSX.Element => {
         <div className="max-w-lg lg:max-w-2xl xl:max-w-3xl flex-1 xl:mr-8">
           <h2 className="text-h2 xl:text-h1 text-primaryText font-bold mb-4">
             Host your meeting with world-class amenities. Starting at{" "}
-            <span className="text-yellow-500">₹199/-!</span>
+            <span className="text-[#FFBB00]">₹199/-!</span>
           </h2>
         </div>
       </div>

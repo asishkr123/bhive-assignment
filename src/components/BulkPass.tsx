@@ -14,14 +14,14 @@ const BulkPassCard: React.FC<BulkPassProps> = ({
   discountPercentage,
 }): JSX.Element => {
   return (
-    <div className="md:w-[50%] w-[45%] lg:p-4 p-[6px] sm:p-[6px] md:p-2 border border-[#EEE7E7] rounded-lg flex items-center justify-between relative bg-[#FFCF4B]">
+    <div className="md:w-[50%] w-[45%] lg:p-4 p-[6px] sm:p-[6px] md:p-2 border border-[#FFC422] rounded-lg flex items-center justify-between relative bg-[#FFCF4B]">
       {discountPercentage && (
         <div className="absolute -top-[8px] md:left-[25%] left-[25%] text-[9px] md:text-xs bg-[#263238] text-white p-[2px] rounded">
           {discountPercentage}% Discount
         </div>
       )}
       <div>
-        <p className="text-xs text-gray-700 font-medium	color-[#514D2D]">
+        <p className="text-sm md:text-[16px] text-gray-700 font-medium	color-[#514D2D]">
           {passType}
         </p>
         <div className="text-[#263238]">

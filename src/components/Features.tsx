@@ -9,7 +9,7 @@ import SportsIcon from "../assets/sports-area.svg";
 import { Feature } from "../types";
 import { useMobileView } from "../hooks/useMobileView";
 
-interface FeatureCardProps {
+interface FeatureProps {
   icon: string;
   title: string;
   index: number;
@@ -32,7 +32,7 @@ const FeaturesSection: React.FC = () => {
   return (
     <div className="w-full py-10 ">
       <div className="md:px-12 xl:mx-20 px-8 xl:p-0 ">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">
+        <h2 className="md:text-[36px] text-2xl font-bold text-[#263238] mb-8">
           Why Choose Us?
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 feature-card-container">
@@ -59,7 +59,7 @@ const FeaturesSection: React.FC = () => {
   );
 };
 
-const FeatureCard: React.FC<FeatureCardProps> = ({
+const FeatureCard: React.FC<FeatureProps> = ({
   index,
   icon,
   title,
@@ -67,12 +67,12 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
   return (
     <div key={index} className={`flex items-center px-6 py-8 feature-card`}>
       <img src={icon} alt={title} className="w-8 h-8 mr-4" />
-      <p className="text-lg font-medium text-gray-900">{title}</p>
+      <p className="text-lg font-medium text-[#263238]">{title}</p>
     </div>
   );
 };
 
-const FeatureCardMobile: React.FC<FeatureCardProps> = ({
+const FeatureCardMobile: React.FC<FeatureProps> = ({
   index,
   icon,
   title,
@@ -83,7 +83,7 @@ const FeatureCardMobile: React.FC<FeatureCardProps> = ({
       className="flex flex-col items-center border  m-2 p-4 md:px-6 bg-white rounded-lg shadow-lg hover:shadow-xl "
     >
       <img src={icon} alt={title} className="w-6 h-6 mb-2" />
-      <p className="text-center text-gray-700 font-semibold">{title}</p>
+      <p className="text-center text-[#263238] font-semibold">{title}</p>
     </div>
   );
 };

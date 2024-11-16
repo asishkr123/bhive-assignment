@@ -6,7 +6,7 @@ export const Footer: React.FC = (): JSX.Element => {
   return (
     <footer className="bg-secondaryGrey h-[30rem] mt-8">
       <div className="w-full md:px-12 xl:px-20 h-full relative">
-        <h2 className="text-3xl font-bold text-gray-800">
+        <h2 className="text-[36px] font-bold text-[#605F5F]">
           Download our app now
         </h2>
         <div className="bg-white rounded-[18px] h-60 absolute w-[calc(100%_-_8rem)] lg:w-[calc(100%_-_8rem)] md:w-[calc(100%_-_3rem)] bottom-4"></div>
@@ -18,7 +18,7 @@ export const Footer: React.FC = (): JSX.Element => {
           />
         </div>
         <div className="flex flex-col items-center text-center md:text-left md:items-start absolute right-20 bottom-12 lg:right-20 lg:bottom-12 md:right-4 md:bottom-[20%]">
-          <p className="text-gray-600 text-lg mb-4 md:hidden lg:block block">
+          <p className="text-[#605F5F] text-lg mb-4 md:hidden lg:block block">
             Boost your productivity with the BHIVE Workspace app.
             <br />
             Elevate your workspace, collaborate efficiently,
@@ -35,7 +35,7 @@ export const Footer: React.FC = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <p className="text-secondaryText text-center text-body bg-[#222E34]">
+      <p className="text-secondaryText text-center text-body text-[#DDDDDD] bg-[#222E34]">
         {" "}
         &copy; Copyright 2024. Bhive Private Limited
       </p>

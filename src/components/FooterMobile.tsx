@@ -5,7 +5,7 @@ export const Footer: React.FC = (): JSX.Element => {
   return (
     <footer>
       <div className="bg-secondaryGrey text-center p-8">
-        <h2 className="text-2xl font-bold text-gray-800 text-left mb-4">
+        <h2 className="text-2xl font-bold text-[#605F5F] text-left mb-4">
           Download our app now
         </h2>
         <div className="flex flex-col justify-center mb-4 p-4 bg-white shadow-md rounded-lg">
@@ -32,7 +32,7 @@ export const Footer: React.FC = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <p className="text-secondaryText text-center text-body bg-[#222E34]">
+      <p className="text-secondaryText text-center text-body text-[#DDDDDD] bg-[#222E34]">
         {" "}
         &copy; Copyright 2024. Bhive Private Limited
       </p>
