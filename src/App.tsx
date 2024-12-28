@@ -28,16 +28,18 @@ const App = () => {
   }, []);
   const isMobile = useMobileView();
   return (
-    <div className="bg-gray-50">
-      <Header />
-      {isMobile ? <BannerMobile /> : <Banner />}
-      <FeaturesSection />
-      {isLoading ? (
-        <WorkspaceSkeleton />
-      ) : (
-        <Workspaces workspaces={workspaces} />
-      )}
-      {isMobile ? <FooterMobile /> : <Footer />}
+    <div className="bg-gray-50 flex justify-center">
+      <div className="max-w-[1440px]">
+        <Header />
+        {isMobile ? <BannerMobile /> : <Banner />}
+        <FeaturesSection />
+        {isLoading ? (
+          <WorkspaceSkeleton />
+        ) : (
+          <Workspaces workspaces={workspaces} />
+        )}
+        {isMobile ? <FooterMobile /> : <Footer />}
+      </div>
     </div>
   );
 };
