@@ -7,12 +7,12 @@ interface DayPassProps {
 
 const DayPass: React.FC<DayPassProps> = ({ price }) => {
   return (
-    <div className="md:w-[50%] w-[45%] p-[6px] sm:p-[6px] md:p-2 lg:p-4 bg-[#F9F9F9] border border-[#EEE7E7] rounded-lg flex items-center justify-between">
+    <div className="md:w-[50%] w-[45%] p-[6px] sm:p-[6px] md:p-2 lg:p-[12px] bg-[#F9F9F9] border border-[#EEE7E7] rounded-lg flex items-center justify-between">
       <div>
-        <p className="text-sm md:text-[16px] text-[#65624C]">{"Day Pass"}</p>
-        <p className="text-lg font-bold text-[#263238]">
+        <p className="text-sm  text-[#65624C]">{"Day Pass"}</p>
+        <p className="text-md font-bold text-[#263238]">
           ₹{`${price}`}
-          {price && <span className="text-sm font-normal">/ Day</span>}
+          {price && <span className="text-xs font-normal">/ Day</span>}
         </p>
       </div>
       <div>
